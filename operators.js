@@ -17,6 +17,8 @@ console.log(text1);
 let x = 5 + 5;
 let y = "5" + 5;
 let z = "Hello" + 5;
+let e = a**2;              //power operand 6 power 2=36.
 console.log(x);
 console.log(y);
 console.log(z);
+console.log("e="+e);
