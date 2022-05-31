@@ -24,23 +24,27 @@ console.log("Average = "+average)
 
 // Question No 2.
 
-var m=5;
+var m=10;
 var n=10;
-let w=add(a,b);
-let x=subtract(a,b);
-let y=Multiply(a,b);
-let z=division(a,b);
-function add(x,y){
-    return m+n;
+let w=add(m,n);
+let x=subtract(m,n);
+let y=Multiply(m,n);
+let z=division(m,n);
+function add(o,p){
+  var q= o+p 
+  return q;
 }
-function subtract(x,y){
-  return m-n;
+function subtract(o,p){
+  var q= o-p 
+  return q;
 }
-function Multiply(x,y){
-  return m*n;
+function Multiply(o,p){
+  var q= o*p 
+  return q;
 }
-function division(x,y){
-  return m/n;
+function division(o,p){
+  var q= o/p 
+  return q;
 }
 console.log("Addition = "+w);
 console.log("Subtraction = "+x);
