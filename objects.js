@@ -5,7 +5,7 @@ console.log("Objects...");
 
 const car = {                           // object
 company:"Honda",
-Model:2020,
+Model:2020, 
 Colour:"White",
  details : function(){return this.company+"\n"+this.Model+"\n"+this.Colour }
 }   
