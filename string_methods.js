@@ -54,12 +54,12 @@ console.log(text8);
 
 //The padStart() method pads a string with another string:
 let text9 = "5";
-let padded = text.padStart(6,"x");
+let padded = text9.padStart(6,"x");
 console.log(padded);
 //The padStart() method is a string method, To pad a number, convert the number to a string first.
 let numb = 5;
 let text10 = numb.toString();
-let paddedtxt = text.padStart(6,"0");
+let paddedtxt = text10.padStart(6,"0");
 console.log(paddedtxt);
 
 //  ----------Extracting String Characters
